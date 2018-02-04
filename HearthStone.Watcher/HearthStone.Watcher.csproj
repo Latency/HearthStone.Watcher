@@ -1,0 +1,31 @@
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>HearthSim</Authors>
+    <Company>HearthSim</Company>
+    <PackageProjectUrl>https://github.com/Latency/HearthStone.Watcher</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Latency/HearthStone.Watcher</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>Copyright © HearthSim</Copyright>
+    <Description>HearthStone Deck Tracker Watcher</Description>
+    <PackageTags>HearthStone Deck Tracker Watcher</PackageTags>
+    <PackageReleaseNotes>Initial build &amp; release package.</PackageReleaseNotes>
+    <PackageId>HearthStone.Watcher</PackageId>
+    <Product>HearthStone.Watcher</Product>
+    <RootNamespace>HearthStone.Watcher</RootNamespace>
+    <AssemblyName>HearthStone.Watcher</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="HearthStone.Database" Version="10.0.1" />
+    <PackageReference Include="HearthStone.Mirror" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
