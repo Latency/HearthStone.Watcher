@@ -24,6 +24,7 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <PackageReference Include="HearthStone.Database" Version="1.0.1" />
     <PackageReference Include="HearthStone.Mirror" Version="1.0.1" />
   </ItemGroup>
 
